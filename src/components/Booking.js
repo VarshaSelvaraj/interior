@@ -51,7 +51,7 @@ const BookingForm = () => {
     // Assuming you have an API endpoint for saving the booking data
     // Replace 'YOUR_API_ENDPOINT' with the actual endpoint
     try {
-      const response = await fetch('/makeBooking', {
+      const response = await fetch('https://interior-back.onrender.com/makeBooking', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
