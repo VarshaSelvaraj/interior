@@ -11,7 +11,7 @@ function NavigationBarLogged() {
   useEffect(() => {
     const token = localStorage.getItem('token');
     if (token) {
-      fetch('/getUserDetails', {
+      fetch('https://interior-back.onrender.com/getUserDetails', {
         headers: {
           Authorization: `Bearer ${token}`,
         },
