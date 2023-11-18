@@ -1,0 +1,141 @@
+
+  
+   .nav-bar li {
+    color:  #644860;
+    margin-right: 35px;
+    
+  
+  }
+  
+  .nav-bar a {
+    text-decoration: none;
+    color:black;
+  }
+  
+  .nav-bar a:hover {
+    color: #644860;
+  }
+  
+  .loginimg{
+    width:30px;
+    height: 30px;
+  }
+  
+  .right-corner {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  .logo {
+    margin-right: auto;
+  }
+  
+  .logo img {
+    max-height: 30px;
+    padding: 0%;
+  }
+  .logo p{
+    font-style: italic;
+  }
+
+  
+  
+  .brand-name {
+    color:  #644860; /* Color of the brand name */
+    font-weight: bold; /* Adjust font weight as needed */
+  }
+  
+  
+  /* SocialMediaIcons.css */
+  .icon {
+    color: black; /* Set the color to black */
+    margin-right: 10px; /* Add space between icons (adjust as needed) */
+  }
+  .nav-bar {
+    color: black;
+    list-style: none;
+    display: flex;
+    justify-content: space-between; /* Adjust alignment */
+    margin: 0;
+    padding: 18px;
+  }
+  
+  .nav-bar li {
+    color: black;
+    margin: 0 20px; /* Adjust the spacing between list items */
+    position: relative; /* Required for the tabs */
+    transition: all 0.3s ease-in-out; /* Smooth transition effect */
+  }
+  
+  .nav-bar li:hover::before {
+    content: '';
+    position: absolute;
+    bottom: -5px; /* Adjust the distance of the tab from the text */
+    left: 0;
+    right: 0;
+    height: 2px; /* Height of the tab */
+    background-color: #242120; /* Tab color when hovered */
+  }
+  
+  .brand-name {
+    color:  #644860; /* Color of the brand name */
+    font-weight: bold; /* Adjust font weight as needed */
+  }
+  .but{
+    color: #644860;
+
+    transition: background-color 0.3s ease;
+  }
+  
+  .but:hover {
+    size: medium;
+    transform: scale(1.1); /* Increase the size by 10% when hovered */
+    transition: transform 0.3s ease;
+   
+    background-color: #644860; /* Change to your preferred button hover color */
+  }
+  /* Navbar.css */
+
+/* Style the dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+}
+
+/* Style the "Sign In/Sign Up" button */
+.dropdown-toggle {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Style the dropdown links */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: silver;
+  color: white;
+}
+
+/* Show the dropdown content when the dropdown is clicked */
+.show {
+  display: block;
+}

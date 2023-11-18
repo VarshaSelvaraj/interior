@@ -1,0 +1,160 @@
+/* Magazine.css */
+
+.design{
+  margin: 0 auto;
+  position: relative;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.slider {
+  position: relative;
+  max-width: 100%; /* Ensure it doesn't exceed viewport width */
+  overflow-x: hidden;
+}
+
+.carousel-item {
+  position: relative;
+  max-width: 100%; /* Ensure it doesn't exceed viewport width */
+  height: 540px;
+}
+
+.slider-image {
+  width: 100%;
+  height: 100%;
+}
+
+.slider-content {
+  color: white;
+  position: absolute;
+  bottom: 130px; /* Adjust the desired distance from the bottom */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+  width: 100%; /* Adjust the desired width */
+  padding: 20px;
+  text-align: center;
+}
+
+.slider-content h2 {
+  font-size: 40px;
+}
+
+.slider-button {
+  background-color: #644860;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.slider-button:hover {
+  font-size: 20px;
+  background-color:  #644860;
+  
+}
+.slick-slider {
+  overflow: hidden !important;
+}
+/*galler*/
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px;
+}
+
+.gallery-item {
+  margin: 10px;
+  text-align: center;
+  position: relative; 
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+
+.gallery-item.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item:hover .gallery-image {
+  transform: scale(1.1);
+}
+
+.gallery-title {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out; /* Add a smooth transition effect for opacity */
+}
+
+.gallery-item:hover .gallery-title {
+  opacity: 1;
+}
+
+
+.gallery h3 {
+  margin-top: 10px;
+  font-size: 14px;
+  color:#644860;
+
+}
+
+/* card */
+
+
+.cardd-section.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.cardd-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.cardd{
+  width: 30%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(101, 48, 93, 0.4);
+}
+
+.cardd:hover {
+  transform: translateY(-5px);
+}
+
+.cardd-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.cardd-content {
+  padding: 15px;
+}
+
+

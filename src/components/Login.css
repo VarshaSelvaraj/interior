@@ -1,0 +1,114 @@
+
+  .login-container {
+     /* Background color for the entire container */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .login-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 700px;
+    height: 350px;
+    width: 100%;
+    padding: 0px;
+    background-color: #ffffff; /* Background color for the content area */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    opacity: 0.9;
+  }
+  
+  .login-form {
+    flex: 1; /* Takes up the available space on the right */
+    padding: 40px;
+  }
+  
+  .login-image {
+    flex: 1; /* Takes up the available space on the left */
+    padding: 0px;
+    text-align: center;
+    
+  }
+  
+  .login-image img {
+    max-width: 100%;
+    height: 350px;
+
+  }
+  
+  .login-content h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-groupLog {
+    margin-bottom: 15px;
+  }
+  
+  .form-groupLog label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-groupLog input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color:#644860;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+ 
+  /*sign up*/
+  .phone-input {
+    display: flex;
+    align-items: center;
+  }
+  
+  .phone-input input[type="text"] {
+    width: 40px;
+    margin-right: 5px; /* Adjust the margin as needed for spacing */
+  }
+  
+  .signup-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 700px;
+    height: 400px;
+    width: 100%;
+    padding: 0px;
+    background-color: #fff; /* Background color for the content area */
+    border-radius: 5px;
+    opacity: 0.9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .sign-image {
+    flex: 1; /* Takes up the available space on the left */
+    padding: 0px;
+    text-align: center;
+  }
+  
+  .sign-image img {
+    max-width: 100%;
+    height: 400px;
+  }
+  .signup-content h2{
+   font-size: 28px;
+  }
+  
+  
+  /* Add this to your CSS file or in-line styles */
+  
