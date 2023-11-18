@@ -67,7 +67,7 @@ const BookingForm = () => {
           confirmButtonText: 'OK',
         }).then(() => {
           // Navigate to the home page after SweetAlert is closed
-          navigate('/homePage');
+          navigate('/homeLog');
         });
       } else {
         // Booking failed
