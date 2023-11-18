@@ -18,7 +18,7 @@ function SignUpPage() {
       Swal.fire('Please fill in all fields','','warning');
     } else {
       try {
-        const response = await fetch('/signup', {
+        const response = await fetch('https://interior-back.onrender.com/signup', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
