@@ -20,7 +20,7 @@ function LoginPage() {
     }
 
     try {
-      const response = await fetch('/coachlog', {
+      const response = await fetch('https://interior-back.onrender.com/coachlog', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
